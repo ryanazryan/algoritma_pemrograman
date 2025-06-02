@@ -1,7 +1,3 @@
-Berikut adalah **README.md** yang menarik dan profesional untuk repositori **Algoritma Pemrograman** di Fakultas Informatika Telkom University, dengan fokus pada pemrograman menggunakan **Golang**:  
-
----
-
 # 🚀 **Algoritma Pemrograman – Telkom University**  
 
 📌 **About the Course**  
