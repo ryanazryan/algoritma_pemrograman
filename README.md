@@ -1,6 +1,5 @@
 # 🚀 **Algoritma Pemrograman – Telkom University**  
 
-📌 **About the Course**  
 This repository contains materials, assignments, and projects from the **Algorithm Programming** course at **Telkom University – Faculty of Informatics**. The course explores fundamental programming concepts, problem-solving techniques, and efficient algorithms, using **Go (Golang)** as the primary language.  
 
 🛠 **Topics Covered**  
