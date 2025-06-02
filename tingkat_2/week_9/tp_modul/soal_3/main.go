@@ -4,7 +4,7 @@ import "fmt"
 
 const NMAX = 20
 
-type tabChar [NMAX] byte
+type tabChar [NMAX]byte
 
 func main() {
 	var K tabChar
@@ -24,7 +24,9 @@ func baca(K *tabChar, n *int) {
 
 	for i := 0; i < *n; i++ {
 		fmt.Printf("Masukkan karakter ke-%d: ", i+1)
-		fmt.Scan(&(*K)[i])
+		var input string
+		fmt.Scan(&input)
+		(*K)[i] = input[0]
 	}
 }
 
@@ -34,9 +36,9 @@ func cetak(k tabChar, n int) {
 		return
 	}
 
-	fmt.Print("Karakter yang terdapat pada array: ")
+	fmt.Println("Nilai yang terdapat pada array (urutan terbalik): ")
 	for i := n - 1; i >= 0; i-- {
-		fmt.Print(string(k[i]), " ")
+		fmt.Print(string(k[i]))
 	}
 	fmt.Println()
 }
