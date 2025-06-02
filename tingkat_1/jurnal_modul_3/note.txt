@@ -1,0 +1,1 @@
+jika ingin menjalankan program, jangan lupa ganti func mainx ke func main saja
